@@ -3,7 +3,7 @@ import Test from "./Test.jsx";
 
 function App() {
   return (
-    <div id="canvas-container" className="h-screen max-w-2xl ml-auto bg-stone-100">
+    <div id="canvas-container" className="h-screen max-w-4xl mx-auto bg-stone-100 overflow-hidden">
         <Canvas>
                 <Test />
         </Canvas>
